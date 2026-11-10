@@ -2642,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 139.7) (xy 96.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bced0f6-9b7f-48af-8e78-db2340b48dbe")
+	)
+	(wire
+		(pts
 			(xy 119.38 163.83) (xy 116.84 163.83)
 		)
 		(stroke
@@ -2882,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 139.7) (xy 86.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7adcc1c1-3837-4271-9324-3e873eecfea3")
+	)
+	(wire
+		(pts
 			(xy 116.84 59.69) (xy 119.38 59.69)
 		)
 		(stroke
@@ -2959,6 +2979,26 @@
 			(type default)
 		)
 		(uuid "93aa65bc-1c4e-4069-a78b-1a9f3143725b")
+	)
+	(wire
+		(pts
+			(xy 83.82 163.83) (xy 116.84 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb6aca2-662c-4dea-be95-78aa97a310f7")
+	)
+	(wire
+		(pts
+			(xy 83.82 139.7) (xy 83.82 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb6d585-ae3f-4e56-8d41-15be1a3a7c22")
 	)
 	(wire
 		(pts
@@ -4333,6 +4373,85 @@
 			(project "stm32f446-usb-v1"
 				(path "/76803fbc-92b8-41b0-800b-64e6f084cd60"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 139.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8327b97-67b1-4e96-a692-c44465616841")
+		(property "Reference" "C10"
+			(at 90.17 144.272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 90.17 146.812 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 140.6652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01a9aea0-faa4-4672-8a51-422b08d83429")
+		)
+		(pin "1"
+			(uuid "c8610009-b62f-4eac-8c6f-68a7cfc31b41")
+		)
+		(instances
+			(project "stm32f446-usb-v1"
+				(path "/76803fbc-92b8-41b0-800b-64e6f084cd60"
+					(reference "C10")
 					(unit 1)
 				)
 			)
