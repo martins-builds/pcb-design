@@ -4554,7 +4554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14034739-c423-444c-9f28-7252b99149d3")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 87.63 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +4618,7 @@
 		(instances
 			(project "stm32f446-usb-v1"
 				(path "/76803fbc-92b8-41b0-800b-64e6f084cd60"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5515,7 +5515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8352aaed-5fd9-4c6e-8206-3634a78a3d4c")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 58.166 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5579,7 +5579,7 @@
 		(instances
 			(project "stm32f446-usb-v1"
 				(path "/76803fbc-92b8-41b0-800b-64e6f084cd60"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6236,7 +6236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6f08dc5-bb31-4445-be07-e9c1e34a9a91")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 24.13 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6300,7 +6300,7 @@
 		(instances
 			(project "stm32f446-usb-v1"
 				(path "/76803fbc-92b8-41b0-800b-64e6f084cd60"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6823,7 +6823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff33a8aa-4350-4df8-84b2-4ed561e56c39")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 44.45 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,7 +6887,7 @@
 		(instances
 			(project "stm32f446-usb-v1"
 				(path "/76803fbc-92b8-41b0-800b-64e6f084cd60"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
