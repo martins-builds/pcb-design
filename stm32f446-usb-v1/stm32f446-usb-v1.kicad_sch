@@ -2892,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 105.41) (xy 69.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789981ce-2022-4334-964c-db04f56d63b7")
+	)
+	(wire
+		(pts
 			(xy 57.15 158.75) (xy 59.69 158.75)
 		)
 		(stroke
@@ -3042,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 151.13) (xy 69.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d571fd-b7fe-43ff-a4c9-3573a3bab812")
+	)
+	(wire
+		(pts
 			(xy 87.63 78.74) (xy 90.17 78.74)
 		)
 		(stroke
@@ -3079,6 +3099,16 @@
 			(type default)
 		)
 		(uuid "d23551ff-4083-4629-9989-41c9f17cebef")
+	)
+	(wire
+		(pts
+			(xy 64.77 153.67) (xy 69.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc690041-37de-4cf4-9339-1215064bf9c2")
 	)
 	(wire
 		(pts
@@ -3172,6 +3202,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 102.87) (xy 69.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f930ce93-d7b7-4bfa-8c68-6b4a4f5fc021")
+	)
+	(wire
+		(pts
 			(xy 107.95 82.55) (xy 119.38 82.55)
 		)
 		(stroke
@@ -3201,6 +3241,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "RCC_OSC_OUT"
+		(shape input)
+		(at 64.77 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10c80d30-f495-44ac-8d79-e4fc3a02e414")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.601 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RCC_OSC32_OUT"
+		(shape input)
+		(at 64.77 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21dfff9a-7edc-4a46-84a0-35fb69029938")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.182 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3249,6 +3337,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "RCC_OSC32_IN"
+		(shape input)
+		(at 64.77 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd11456c-7a93-4666-90d8-13d8f42ba02e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.8753 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RCC_OSC_IN"
+		(shape input)
+		(at 64.77 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcf52a5a-21c8-49af-95b6-78cc45586ca2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.2943 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
