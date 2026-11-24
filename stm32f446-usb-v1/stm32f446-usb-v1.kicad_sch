@@ -5405,7 +5405,7 @@
 	(text_box "USB C AND CHARGING REGULATOR"
 		(exclude_from_sim no)
 		(at 153.67 67.31 0)
-		(size 132.08 99.06)
+		(size 130.81 99.06)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -9176,7 +9176,7 @@
 		(dnp no)
 		(uuid "5c3f932d-32bc-4354-bc85-b553bfeb6108")
 		(property "Reference" "R7"
-			(at 234.188 151.384 90)
+			(at 238.506 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9186,7 +9186,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 234.188 153.162 90)
+			(at 238.506 151.384 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
